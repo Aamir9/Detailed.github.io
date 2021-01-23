@@ -1,0 +1,119 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+$spanFontSize:2wv;
+ 
+$blue:#8E9FBC;
+$red:#D22630;
+$darkblue:#1e384c;
+
+$theme-colors: (
+
+  "danger": $red,
+  "info": #fff
+
+);
+
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+$fa-font-path: "../../node_modules/font-awesome/fonts";
+@import "../../node_modules/font-awesome/scss/font-awesome";
+
+
+
+ $fontFaimly:helvetica-w01-light,helvetica-w02-light,sans-serif;
+ 
+
+
+  
+
+ #navbarNav {
+
+    .nav-item{
+
+        
+       
+        .nav-link{
+            font-family:$fontFaimly;
+            font-size: 16px;
+            color: $blue;
+            font-weight: 300;
+        }
+    }
+  /*   .active{
+         
+        .nav-link{
+            color: $red;
+            transition: color 0.4s ease 0s;
+        }
+      
+    } */
+ }
+
+.phoneEmail{
+
+    span{
+        font-size: $spanFontSize;
+        font-family:$fontFaimly;
+       
+        
+    }
+}
+
+h3{
+
+    color:$blue;
+    font-family: $fontFaimly;
+}
+
+p{
+    font-family: $fontFaimly;  
+}
+
+
+h1{
+        
+    font-family:$fontFaimly; 
+    color:white;
+    text-shadow: -1px 0 #eee, 0 1px #eee, 1px 0 #eee, 0 -1px #eee,;
+    
+    text-transform: uppercase;
+}
+.Gallery{
+
+    a,p{
+        display: none;
+    }
+    
+}
+
+
+
+footer{
+
+    background-color: $darkblue;
+    color:#fff;
+}
+
+.mainSlider{
+
+    margin-top:10em;
+   
+   } 
+
+   .caption_top{
+    
+    top: 11em;
+    bottom: auto;
+   }
+
+   .Gallery{
+
+    height: 400px;
+    background-size: conver;
+    background-repeat: no-repeat;
+
+   }
+

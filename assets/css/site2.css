@@ -1,0 +1,104 @@
+ 
+ #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+   
+    
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: no/ne;
+   /*  background-color: red; */
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+
+  #myBtn2 {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 70px;;
+    
+    z-index: 99;
+    font-size: 14px;
+    border: none;
+    outline: no/ne;
+   /*  background-color: red; */
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+  }
+
+
+  input{
+
+    border-radius: 0 !important;
+    border:2px solid black !important ;
+    color:black !important;
+  }
+
+
+
+  #teslabg{
+    
+    background-size:cover;
+    background-repeat: no-repeat;height:300px;
+    background-attachment: fixed; 
+  }
+
+
+
+  @media screen and (max-width: 800px) {
+    .email{
+       display:none;
+    }
+    
+    #teslabg {
+ 
+      height: 150px;
+    
+    }
+ 
+     .display-2
+     {
+         font-size: 26px !important ;
+      
+         
+   }
+ 
+     .display-1
+     {
+         font-size: 26px !important ;
+     }
+ 
+
+ 
+     h3
+     {
+         font-size: 24px;  
+     }
+     
+    h4
+    {
+         font-size: 24px;
+    }
+     
+    .display-3
+    {
+ 
+         font-size: 26px !important;
+     }
+ 
+     
+    .carouselIconImage{
+ 
+     height:40px;
+     
+ }
+    
+   }
